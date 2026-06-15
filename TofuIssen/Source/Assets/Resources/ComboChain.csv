@@ -1,0 +1,10 @@
+#animname,AttackPower,moveSpeed,moveSpeed,nextWeakAttack,nextHeavyAttack,seFrameRate,seName,comboIndex
+#,,,nextAttack:,ƒZƒ~ƒRƒƒ“‹æØ‚è(;),‚È‚¯‚ê‚Î‹ó—“,,,
+Player|MainAttack1,30,0.4,0.4,1,6,0.06,airSlash,0
+Player|MainAttack2,35,0.4,0.4,2,6,0.06,airSlash,1
+Player|MainAttack3,42,0.4,0.4,3,6,0.16,airSlash,2
+Player|MainAttack4,45,0.4,0.4,4,6,0.13,airSlash,3
+Player|MainAttack5,99,0.6,0.6,,,0.2,airSlash,4
+Player|SubAttack1,1,0.3,0.4,0,6,0.2,airSlash,5
+Player|SubAttack2,1,0.2,0.4,,7,0.35,airSlash,6
+Player|SubAttack3,1,0.2,0.4,,,0.25,airSlash,7

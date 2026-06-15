@@ -1,0 +1,2409 @@
+fileFormatVersion: 2
+guid: b57a5cfede943e544a5b69be9ab3b73e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: joints
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'BND_C_Spine2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'BND_C_Spine4' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'BND_C_Pelvis1'
+      has translation animation that will be discarded.\n\t'BND_C_Pelvis1' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 1
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geometry
+        weight: 0
+      - path: geometry/body_geo
+        weight: 0
+      - path: geometry/hair_geo
+        weight: 0
+      - path: geometry/head_geo
+        weight: 0
+      - path: geometry/l_eye_geo
+        weight: 0
+      - path: geometry/poncho_geo
+        weight: 0
+      - path: geometry/r_eye_geo
+        weight: 0
+      - path: geometry/scythe_geo
+        weight: 0
+      - path: geometry/sword_geo
+        weight: 0
+      - path: geometry/sword_geo/locator1
+        weight: 0
+      - path: joints
+        weight: 1
+      - path: joints/BND_C_World1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_BeltBack1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_BeltFront1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_BeltSide1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_BootFlap1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_BootFlap1/BND_L_BootFlap2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_Leg1Twist1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_Leg1Twist2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_Leg2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_Leg2/BND_L_Leg2Twist1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_Leg2/BND_L_Leg2Twist2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_Leg2/BND_L_Leg2Twist3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_Leg2/BND_L_Leg3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/BND_L_Leg2/BND_L_Leg3/BND_L_Toe1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_Leg1/PRC_L_Leg1Twist3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_SkirtFlapBack1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_SkirtFlapBack1/BND_L_SkirtFlapBack2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_SkirtFlapBack1/BND_L_SkirtFlapBack2/BND_L_SkirtFlapBack3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_SkirtFlapFront1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_SkirtFlapFront1/BND_L_SkirtFlapFront2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_L_SkirtFlapFront1/BND_L_SkirtFlapFront2/BND_L_SkirtFlapFront3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_BeltBack1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_BeltFront1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_BeltSide1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_BootFlap1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_BootFlap1/BND_R_BootFlap2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg1Twist1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg1Twist2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg1Twist3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg2/BND_R_Leg2Twist1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg2/BND_R_Leg2Twist2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg2/BND_R_Leg2Twist3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg2/BND_R_Leg3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_Leg1/BND_R_Leg2/BND_R_Leg3/BND_R_Toe1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_PouchBack1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_PouchFront1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_SkirtFlapBack1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_SkirtFlapBack1/BND_R_SkirtFlapBack2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_SkirtFlapBack1/BND_R_SkirtFlapBack2/BND_R_SkirtFlapBack3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_SkirtFlapFront1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_SkirtFlapFront1/BND_R_SkirtFlapFront2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Pelvis1/BND_R_SkirtFlapFront1/BND_R_SkirtFlapFront2/BND_R_SkirtFlapFront3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtBack_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtBack_1/BND_C_SkirtBack_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtBack_1/BND_C_SkirtBack_2/BND_C_SkirtBack_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtBack_1/BND_C_SkirtBack_2/BND_C_SkirtBack_3/BND_C_SkirtBack_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtBack_1/BND_C_SkirtBack_2/BND_C_SkirtBack_3/BND_C_SkirtBack_4/BND_C_SkirtBack_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtFront_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtFront_1/BND_C_SkirtFront_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtFront_1/BND_C_SkirtFront_2/BND_C_SkirtFront_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtFront_1/BND_C_SkirtFront_2/BND_C_SkirtFront_3/BND_C_SkirtFront_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_SkirtFront_1/BND_C_SkirtFront_2/BND_C_SkirtFront_3/BND_C_SkirtFront_4/BND_C_SkirtFront_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Hair1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Hair1/BND_C_Hair2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Hair1/BND_C_Hair2/BND_C_Hair3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Hair1/BND_C_Hair2/BND_C_Hair3/BND_C_Hair4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Hair1/BND_C_Hair2/BND_C_Hair3/BND_C_Hair4/BND_C_Hair5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Hair1/BND_C_Hair2/BND_C_Hair3/BND_C_Hair4/BND_C_Hair5/BND_C_Hair6
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Hair1/BND_C_Hair2/BND_C_Hair3/BND_C_Hair4/BND_C_Hair5/BND_C_Hair6/BND_C_Hair7
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Jaw1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Jaw1/BND_C_Tongue1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_Jaw1/BND_C_Tongue1/BND_C_Tongue2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_MouthLower1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_C_MouthUpper1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_BrowInner1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_BrowMid1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_BrowOuter1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_Eye1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_HairFront1_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_HairFront1_1/BND_L_HairFront1_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_HairSide1_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_LowerEyelid1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_MouthCorner1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_MouthLower1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_MouthLower2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_MouthUpper1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_MouthUpper2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_L_UpperEyelid1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_BrowInner1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_BrowMid1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_BrowOuter1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_Eye1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_HairFront1_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_HairFront1_1/BND_R_HairFront1_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_HairFront2_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_HairFront2_1/BND_R_HairFront2_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_HairFront3_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_HairFront3_1/BND_R_HairFront3_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_HairSide1_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_LowerEyelid1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_MouthCorner1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_MouthLower1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_MouthLower2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_MouthUpper1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_MouthUpper2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_Neck1/BND_C_Neck2/BND_C_Head/BND_R_UpperEyelid1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoBack_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoBack_1/BND_C_PonchoBack_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoBack_1/BND_C_PonchoBack_2/BND_C_PonchoBack_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoBack_1/BND_C_PonchoBack_2/BND_C_PonchoBack_3/BND_C_PonchoBack_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoBack_1/BND_C_PonchoBack_2/BND_C_PonchoBack_3/BND_C_PonchoBack_4/BND_C_PonchoBack_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoFront_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoFront_1/BND_C_PonchoFront_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoFront_1/BND_C_PonchoFront_2/BND_C_PonchoFront_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoFront_1/BND_C_PonchoFront_2/BND_C_PonchoFront_3/BND_C_PonchoFront_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_C_PonchoFront_1/BND_C_PonchoFront_2/BND_C_PonchoFront_3/BND_C_PonchoFront_4/BND_C_PonchoFront_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm1Twist1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm1Twist2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm1Twist3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm2Twist1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm2Twist2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm2Twist3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Index1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Index1/BND_L_Index2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Index1/BND_L_Index2/BND_L_Index3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Index1/BND_L_Index2/BND_L_Index3/BND_L_Index4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Index1/BND_L_Index2/BND_L_Index3/BND_L_Index4/BND_L_Index5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Middle1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Middle1/BND_L_Middle2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Middle1/BND_L_Middle2/BND_L_Middle3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Middle1/BND_L_Middle2/BND_L_Middle3/BND_L_Middle4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Middle1/BND_L_Middle2/BND_L_Middle3/BND_L_Middle4/BND_L_Middle5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Pinky1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Pinky1/BND_L_Pinky2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Pinky1/BND_L_Pinky2/BND_L_Pinky3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Pinky1/BND_L_Pinky2/BND_L_Pinky3/BND_L_Pinky4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Pinky1/BND_L_Pinky2/BND_L_Pinky3/BND_L_Pinky4/BND_L_Pinky5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Ring1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Ring1/BND_L_Ring2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Ring1/BND_L_Ring2/BND_L_Ring3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Ring1/BND_L_Ring2/BND_L_Ring3/BND_L_Ring4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Ring1/BND_L_Ring2/BND_L_Ring3/BND_L_Ring4/BND_L_Ring5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Thumb1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Thumb1/BND_L_Thumb2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Thumb1/BND_L_Thumb2/BND_L_Thumb3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1/BND_L_Arm2/BND_L_Arm3/BND_L_Thumb1/BND_L_Thumb2/BND_L_Thumb3/BND_L_Thumb4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_Clav1/BND_L_Arm1_noTwist
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoBack_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoBack_1/BND_L_PonchoBack_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoBack_1/BND_L_PonchoBack_2/BND_L_PonchoBack_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoBack_1/BND_L_PonchoBack_2/BND_L_PonchoBack_3/BND_L_PonchoBack_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoBack_1/BND_L_PonchoBack_2/BND_L_PonchoBack_3/BND_L_PonchoBack_4/BND_L_PonchoBack_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoFront_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoFront_1/BND_L_PonchoFront_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoFront_1/BND_L_PonchoFront_2/BND_L_PonchoFront_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoFront_1/BND_L_PonchoFront_2/BND_L_PonchoFront_3/BND_L_PonchoFront_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoFront_1/BND_L_PonchoFront_2/BND_L_PonchoFront_3/BND_L_PonchoFront_4/BND_L_PonchoFront_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoSide_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoSide_1/BND_L_PonchoSide_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoSide_1/BND_L_PonchoSide_2/BND_L_PonchoSide_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoSide_1/BND_L_PonchoSide_2/BND_L_PonchoSide_3/BND_L_PonchoSide_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_L_PonchoSide_1/BND_L_PonchoSide_2/BND_L_PonchoSide_3/BND_L_PonchoSide_4/BND_L_PonchoSide_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm1Twist1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm1Twist2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm1Twist3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm2Twist1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm2Twist2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm2Twist3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Index1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Index1/BND_R_Index2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Index1/BND_R_Index2/BND_R_Index3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Index1/BND_R_Index2/BND_R_Index3/BND_R_Index4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Index1/BND_R_Index2/BND_R_Index3/BND_R_Index4/BND_R_Index5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Middle1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Middle1/BND_R_Middle2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Middle1/BND_R_Middle2/BND_R_Middle3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Middle1/BND_R_Middle2/BND_R_Middle3/BND_R_Middle4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Middle1/BND_R_Middle2/BND_R_Middle3/BND_R_Middle4/BND_R_Middle5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Pinky1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Pinky1/BND_R_Pinky2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Pinky1/BND_R_Pinky2/BND_R_Pinky3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Pinky1/BND_R_Pinky2/BND_R_Pinky3/BND_R_Pinky4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Pinky1/BND_R_Pinky2/BND_R_Pinky3/BND_R_Pinky4/BND_R_Pinky5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Ring1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Ring1/BND_R_Ring2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Ring1/BND_R_Ring2/BND_R_Ring3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Ring1/BND_R_Ring2/BND_R_Ring3/BND_R_Ring4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Ring1/BND_R_Ring2/BND_R_Ring3/BND_R_Ring4/BND_R_Ring5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Thumb1
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Thumb1/BND_R_Thumb2
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Thumb1/BND_R_Thumb2/BND_R_Thumb3
+        weight: 1
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1/BND_R_Arm2/BND_R_Arm3/BND_R_Thumb1/BND_R_Thumb2/BND_R_Thumb3/BND_R_Thumb4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_Clav1/BND_R_Arm1_noTwist
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoBack_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoBack_1/BND_R_PonchoBack_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoBack_1/BND_R_PonchoBack_2/BND_R_PonchoBack_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoBack_1/BND_R_PonchoBack_2/BND_R_PonchoBack_3/BND_R_PonchoBack_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoBack_1/BND_R_PonchoBack_2/BND_R_PonchoBack_3/BND_R_PonchoBack_4/BND_R_PonchoBack_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoFront_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoFront_1/BND_R_PonchoFront_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoFront_1/BND_R_PonchoFront_2/BND_R_PonchoFront_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoFront_1/BND_R_PonchoFront_2/BND_R_PonchoFront_3/BND_R_PonchoFront_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoFront_1/BND_R_PonchoFront_2/BND_R_PonchoFront_3/BND_R_PonchoFront_4/BND_R_PonchoFront_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoSide_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoSide_1/BND_R_PonchoSide_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoSide_1/BND_R_PonchoSide_2/BND_R_PonchoSide_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoSide_1/BND_R_PonchoSide_2/BND_R_PonchoSide_3/BND_R_PonchoSide_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_C_Spine3/BND_C_Spine4/BND_R_PonchoSide_1/BND_R_PonchoSide_2/BND_R_PonchoSide_3/BND_R_PonchoSide_4/BND_R_PonchoSide_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtBack_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtBack_1/BND_L_SkirtBack_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtBack_1/BND_L_SkirtBack_2/BND_L_SkirtBack_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtBack_1/BND_L_SkirtBack_2/BND_L_SkirtBack_3/BND_L_SkirtBack_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtBack_1/BND_L_SkirtBack_2/BND_L_SkirtBack_3/BND_L_SkirtBack_4/BND_L_SkirtBack_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtFront_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtFront_1/BND_L_SkirtFront_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtFront_1/BND_L_SkirtFront_2/BND_L_SkirtFront_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtFront_1/BND_L_SkirtFront_2/BND_L_SkirtFront_3/BND_L_SkirtFront_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtFront_1/BND_L_SkirtFront_2/BND_L_SkirtFront_3/BND_L_SkirtFront_4/BND_L_SkirtFront_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtSide_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtSide_1/BND_L_SkirtSide_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtSide_1/BND_L_SkirtSide_2/BND_L_SkirtSide_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtSide_1/BND_L_SkirtSide_2/BND_L_SkirtSide_3/BND_L_SkirtSide_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_L_SkirtSide_1/BND_L_SkirtSide_2/BND_L_SkirtSide_3/BND_L_SkirtSide_4/BND_L_SkirtSide_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtBack_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtBack_1/BND_R_SkirtBack_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtBack_1/BND_R_SkirtBack_2/BND_R_SkirtBack_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtBack_1/BND_R_SkirtBack_2/BND_R_SkirtBack_3/BND_R_SkirtBack_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtBack_1/BND_R_SkirtBack_2/BND_R_SkirtBack_3/BND_R_SkirtBack_4/BND_R_SkirtBack_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtFront_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtFront_1/BND_R_SkirtFront_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtFront_1/BND_R_SkirtFront_2/BND_R_SkirtFront_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtFront_1/BND_R_SkirtFront_2/BND_R_SkirtFront_3/BND_R_SkirtFront_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtFront_1/BND_R_SkirtFront_2/BND_R_SkirtFront_3/BND_R_SkirtFront_4/BND_R_SkirtFront_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtSide_1
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtSide_1/BND_R_SkirtSide_2
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtSide_1/BND_R_SkirtSide_2/BND_R_SkirtSide_3
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtSide_1/BND_R_SkirtSide_2/BND_R_SkirtSide_3/BND_R_SkirtSide_4
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Root/BND_C_Spine1/BND_C_Spine2/BND_R_SkirtSide_1/BND_R_SkirtSide_2/BND_R_SkirtSide_3/BND_R_SkirtSide_4/BND_R_SkirtSide_5
+        weight: 0
+      - path: joints/BND_C_World1/BND_C_Weapon1
+        weight: 0
+      - path: joints/BND_C_World1/BND_L_HandGrip1
+        weight: 0
+      - path: joints/BND_C_World1/BND_R_HandGrip1
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: BND_C_Spine1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Leg1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Leg1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Leg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Leg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Leg3
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Leg3
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_C_Spine3
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_C_Neck1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_C_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Clav1
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Clav1
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Arm1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Arm1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Arm2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Arm2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Arm3
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Arm3
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Toe1
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Toe1
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Eye1
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Eye1
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_C_Jaw1
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Thumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Thumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Thumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Index1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Index2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Index3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Middle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Middle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Middle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Ring1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Ring2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Ring3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Pinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Pinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_L_Pinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Thumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Thumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Thumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Index1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Index2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Index3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Middle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Middle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Middle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Ring1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Ring2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Ring3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Pinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Pinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BND_R_Pinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: renngeki_5_kuo_v6(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: joints
+      parentName: renngeki_5_kuo_v6(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BND_C_World1
+      parentName: joints
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BND_C_Root
+      parentName: BND_C_World1
+      position: {x: -11.404194, y: 63.200275, z: 53.62391}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: BND_C_Spine1
+      parentName: BND_C_Root
+      position: {x: 11.077656, y: 41.112007, z: -52.675983}
+      rotation: {x: 0.030529248, y: -0, z: -0, w: 0.9995339}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: BND_C_Spine2
+      parentName: BND_C_Spine1
+      position: {x: 1.7763568e-14, y: 7.4109006, z: 2.1316282e-14}
+      rotation: {x: -0.029125305, y: -0, z: -0, w: 0.9995758}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: BND_C_Spine3
+      parentName: BND_C_Spine2
+      position: {x: -1.4210855e-14, y: 7.4109006, z: 7.1054274e-15}
+      rotation: {x: -0.033240873, y: -0, z: -0, w: 0.99944735}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: BND_C_Spine4
+      parentName: BND_C_Spine3
+      position: {x: 0.000000007312721, y: 7.4109006, z: -1.4210855e-14}
+      rotation: {x: -0, y: -0.0000031249601, z: -7.105427e-14, w: 1}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000004}
+    - name: BND_L_Clav1
+      parentName: BND_C_Spine4
+      position: {x: -2.8045166, y: 15.936407, z: -5.2033978}
+      rotation: {x: 0.031837054, y: 0.0000031233762, z: -0.00000009948945, w: 0.9994931}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000002}
+    - name: BND_L_Arm1
+      parentName: BND_L_Clav1
+      position: {x: -10.2651825, y: -2.604512, z: -0.62227553}
+      rotation: {x: -0.032793846, y: 0.00073820923, z: 0.028381178, w: 0.99905884}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+    - name: BND_L_Arm2
+      parentName: BND_L_Arm1
+      position: {x: -22.105652, y: -2.842171e-14, z: 6.217249e-15}
+      rotation: {x: -0.00036957854, y: 0.035392597, z: -0.0076400544, w: 0.9993442}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999976}
+    - name: BND_L_Arm3
+      parentName: BND_L_Arm2
+      position: {x: -23.08019, y: 0.00000006989845, z: 0}
+      rotation: {x: 0.03313913, y: 0.025086628, z: 0.051637504, w: 0.9978006}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: BND_L_Thumb1
+      parentName: BND_L_Arm3
+      position: {x: -1.0743973, y: -1.1666033, z: 1.0041344}
+      rotation: {x: 0.44983143, y: 0.42220336, z: -0.24831793, w: 0.7468161}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: BND_L_Thumb2
+      parentName: BND_L_Thumb1
+      position: {x: -3.447071, y: -1.563194e-13, z: 5.5422333e-13}
+      rotation: {x: 0.024923885, y: -0.016298052, z: 0.0272669, w: 0.9991845}
+      scale: {x: 1.0000005, y: 0.99999964, z: 1.0000004}
+    - name: BND_L_Thumb3
+      parentName: BND_L_Thumb2
+      position: {x: -4.641275, y: 1.4210855e-14, z: -6.3948846e-14}
+      rotation: {x: 0.000000083819025, y: -0.00000030361113, z: 0.03726845, w: 0.9993053}
+      scale: {x: 0.99999976, y: 0.99999964, z: 0.9999999}
+    - name: BND_L_Thumb4
+      parentName: BND_L_Thumb3
+      position: {x: -2.886129, y: -1.2148458e-28, z: -1.9539925e-14}
+      rotation: {x: -0, y: -1.7763558e-15, z: -5.2180427e-15, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: BND_L_Index1
+      parentName: BND_L_Arm3
+      position: {x: -3.9452305, y: 0.122692555, z: 2.5591109}
+      rotation: {x: 0.09613157, y: 0.060806282, z: -0.1285219, w: 0.98516166}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: BND_L_Index2
+      parentName: BND_L_Index1
+      position: {x: -4.230791, y: -0.5202638, z: 0.40809017}
+      rotation: {x: -0.04746628, y: 0.0075993417, z: 0.050980825, w: 0.9975421}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000002}
+    - name: BND_L_Index3
+      parentName: BND_L_Index2
+      position: {x: -4.051623, y: -7.1054274e-14, z: 8.526513e-14}
+      rotation: {x: 0.000000037252903, y: 0.0000000037252903, z: 0.028172469, w: 0.99960315}
+      scale: {x: 0.9999998, y: 1.0000002, z: 0.9999998}
+    - name: BND_L_Index4
+      parentName: BND_L_Index3
+      position: {x: -2.2548952, y: 1.0835777e-13, z: -9.947598e-14}
+      rotation: {x: -0.000000033924263, y: -0.000000018964073, z: -0.034575973, w: 0.99940205}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: BND_L_Index5
+      parentName: BND_L_Index4
+      position: {x: -1.881745, y: 0, z: -5.3290705e-15}
+      rotation: {x: 3.5527124e-15, y: -0, z: -6.433422e-16, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.9999998}
+    - name: BND_L_Middle1
+      parentName: BND_L_Arm3
+      position: {x: -3.972807, y: 1.0492562, z: 1.057371}
+      rotation: {x: 0.010169768, y: 0.085867114, z: -0.1538374, w: 0.9843056}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: BND_L_Middle2
+      parentName: BND_L_Middle1
+      position: {x: -4.4300966, y: -0.8285867, z: 0.11587828}
+      rotation: {x: -0.03891122, y: -0.006373991, z: 0.058143463, w: 0.9975293}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000001}
+    - name: BND_L_Middle3
+      parentName: BND_L_Middle2
+      position: {x: -4.1749563, y: -1.1368684e-13, z: -2.842171e-14}
+      rotation: {x: 0.000000007450578, y: 0.000000017229462, z: 0.04124164, w: 0.99914926}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: BND_L_Middle4
+      parentName: BND_L_Middle3
+      position: {x: -3.0189645, y: 1.563194e-13, z: -4.2632564e-14}
+      rotation: {x: -0.0000000035976697, y: 0.000000018609773, z: -0.05086281, w: 0.9987057}
+      scale: {x: 1.0000001, y: 0.9999996, z: 0.99999994}
+    - name: BND_L_Middle5
+      parentName: BND_L_Middle4
+      position: {x: -2.338643, y: -4.2632564e-14, z: -6.1062266e-15}
+      rotation: {x: -0, y: -1.7763562e-15, z: 6.695181e-17, w: 1}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1}
+    - name: BND_L_Ring1
+      parentName: BND_L_Arm3
+      position: {x: -3.8946486, y: 1.0898665, z: -0.5362584}
+      rotation: {x: -0.03156976, y: 0.08205707, z: -0.17574817, w: 0.9805012}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: BND_L_Ring2
+      parentName: BND_L_Ring1
+      position: {x: -4.467682, y: -1.0181, z: 0.072277665}
+      rotation: {x: -0.09879842, y: 0.0030475478, z: 0.07428521, w: 0.99232626}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999976}
+    - name: BND_L_Ring3
+      parentName: BND_L_Ring2
+      position: {x: -3.8941164, y: 2.4868996e-14, z: 1.4210855e-14}
+      rotation: {x: -0.0010579003, y: 0.0071405526, z: -0.010192898, w: 0.999922}
+      scale: {x: 1.0000006, y: 1.0000012, z: 1.0000004}
+    - name: BND_L_Ring4
+      parentName: BND_L_Ring3
+      position: {x: -2.8328671, y: 2.842171e-14, z: -1.4210855e-14}
+      rotation: {x: 0.000000010360961, y: -0.000000017695125, z: -0.056106664, w: 0.9984248}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999998}
+    - name: BND_L_Ring5
+      parentName: BND_L_Ring4
+      position: {x: -2.1745527, y: 2.842171e-14, z: -1.7763568e-14}
+      rotation: {x: -0, y: -0, z: 1.8333847e-16, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: BND_L_Pinky1
+      parentName: BND_L_Arm3
+      position: {x: -2.7099483, y: 0.08851663, z: -1.7585831}
+      rotation: {x: -0.13489473, y: 0.115378246, z: -0.19785322, w: 0.9640257}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: BND_L_Pinky2
+      parentName: BND_L_Pinky1
+      position: {x: -4.969663, y: -1.2869885, z: -0.45998004}
+      rotation: {x: -0.01449343, y: -0.013639529, z: 0.107598834, w: 0.99399525}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: BND_L_Pinky3
+      parentName: BND_L_Pinky2
+      position: {x: -3.8782883, y: -5.684342e-14, z: 4.2632564e-14}
+      rotation: {x: 0.000000016763803, y: -0.000000007450579, z: 0.020335265, w: 0.9997933}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000001}
+    - name: BND_L_Pinky4
+      parentName: BND_L_Pinky3
+      position: {x: -2.0874312, y: -5.6066263e-15, z: -4.2632564e-14}
+      rotation: {x: -0.0000000152272, y: -4.4120335e-10, z: -0.044347443, w: 0.9990162}
+      scale: {x: 1.0000004, y: 0.9999998, z: 0.9999999}
+    - name: BND_L_Pinky5
+      parentName: BND_L_Pinky4
+      position: {x: -1.836, y: -5.684342e-14, z: -3.5527137e-15}
+      rotation: {x: -0, y: -0, z: -6.7182915e-18, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: BND_L_Arm2Twist1
+      parentName: BND_L_Arm2
+      position: {x: 6.5973893e-12, y: 0.000017107033, z: -7.6738615e-13}
+      rotation: {x: 0.000000012863101, y: 0.000000007450579, z: 0.0000003894378, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: BND_L_Arm2Twist2
+      parentName: BND_L_Arm2
+      position: {x: -11.55, y: 0.000008531298, z: -1.3076829e-10}
+      rotation: {x: 0.01730388, y: 0.000000026077029, z: 0.00000060858787, w: 0.9998503}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000001}
+    - name: BND_L_Arm2Twist3
+      parentName: BND_L_Arm2
+      position: {x: -23.1, y: -0.000000044438053, z: -2.6062708e-10}
+      rotation: {x: 0.034602605, y: 0.000000026077029, z: 0.00000050328015, w: 0.99940115}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: BND_L_Arm1Twist1
+      parentName: BND_L_Arm1
+      position: {x: -2.842171e-14, y: -2.842171e-14, z: -4.440892e-15}
+      rotation: {x: 0.016405737, y: 0.0000000032596286, z: -0.0000000684522, w: 0.9998655}
+      scale: {x: 0.99999976, y: 1, z: 0.99999994}
+    - name: BND_L_Arm1Twist2
+      parentName: BND_L_Arm1
+      position: {x: -11.05, y: 0.000008551329, z: -1.294076e-12}
+      rotation: {x: 0.008203148, y: -9.3132246e-10, z: -0.00000006091431, w: 0.99996644}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1}
+    - name: BND_L_Arm1Twist3
+      parentName: BND_L_Arm1
+      position: {x: -22.1, y: 0.00001710266, z: -1.294076e-12}
+      rotation: {x: -0, y: -0, z: 0.000000014901159, w: 1}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: BND_L_Arm1_noTwist
+      parentName: BND_L_Clav1
+      position: {x: -10.2651825, y: -2.604512, z: -0.62227553}
+      rotation: {x: -0.000000005587935, y: 0.017290091, z: 0.29362422, w: 0.9557646}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: BND_C_Neck1
+      parentName: BND_C_Spine4
+      position: {x: -0.000029237572, y: 19.388546, z: -4.6891885}
+      rotation: {x: 0.05214369, y: 0.052148104, z: -0.70518166, w: 0.7051812}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000008}
+    - name: BND_C_Neck2
+      parentName: BND_C_Neck1
+      position: {x: -5.863397, y: -7.1054274e-15, z: 0}
+      rotation: {x: -0.0000000037252899, y: -0.0017664989, z: 0.00000004936009, w: 0.99999845}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: BND_C_Head
+      parentName: BND_C_Neck2
+      position: {x: -5.610144, y: 3.5527137e-14, z: 0.07597247}
+      rotation: {x: -0.0000000018306177, y: -0.04019269, z: 0.000000088485585, w: 0.99919194}
+      scale: {x: 1.0000011, y: 1.0000006, z: 1.0000002}
+    - name: BND_C_Hair1
+      parentName: BND_C_Head
+      position: {x: -9.497087, y: 7.780443e-13, z: -5.6652575}
+      rotation: {x: 0.089356415, y: -0.7014381, z: 0.7014382, w: 0.089356475}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: BND_C_Hair2
+      parentName: BND_C_Hair1
+      position: {x: -9.05647, y: 3.1974423e-14, z: -3.5527137e-15}
+      rotation: {x: -0.000000025145704, y: -0.000000029802315, z: -0.020479994, w: 0.9997903}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: BND_C_Hair3
+      parentName: BND_C_Hair2
+      position: {x: -9.986964, y: -0.00009225901, z: -3.907985e-14}
+      rotation: {x: -0.000000040060012, y: 0.000000073216086, z: 0.019057859, w: 0.9998184}
+      scale: {x: 1.0000001, y: 0.9999997, z: 1.0000002}
+    - name: BND_C_Hair4
+      parentName: BND_C_Hair3
+      position: {x: -9.514289, y: 1.0658141e-14, z: 3.5527137e-15}
+      rotation: {x: -0.000000026272051, y: -0.00000007689474, z: 0.037070975, w: 0.9993127}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: BND_C_Hair5
+      parentName: BND_C_Hair4
+      position: {x: -9.222399, y: 0, z: -2.4868996e-13}
+      rotation: {x: 0.000000059117717, y: 0.000000004362654, z: 0.07809382, w: 0.9969461}
+      scale: {x: 1, y: 1.0000005, z: 1.0000006}
+    - name: BND_C_Hair6
+      parentName: BND_C_Hair5
+      position: {x: -9.392451, y: 1.4210855e-14, z: -2.4868996e-13}
+      rotation: {x: -0.0000000012299419, y: 0.0000000073699375, z: 0.051246557, w: 0.9986861}
+      scale: {x: 1.0000006, y: 1.0000012, z: 1.0000002}
+    - name: BND_C_Hair7
+      parentName: BND_C_Hair6
+      position: {x: -9.457971, y: -7.1054274e-15, z: -1.0658141e-14}
+      rotation: {x: -0, y: -0, z: 9.064594e-18, w: 1}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000005}
+    - name: BND_L_Eye1
+      parentName: BND_C_Head
+      position: {x: -2.151794, y: -3.2565231, z: 6.018}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 1, y: 1.0000012, z: 1.0000005}
+    - name: BND_R_Eye1
+      parentName: BND_C_Head
+      position: {x: -2.151794, y: 3.2565236, z: 6.018}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 1, y: 1.0000006, z: 1.0000001}
+    - name: BND_C_Jaw1
+      parentName: BND_C_Head
+      position: {x: 1.1250553, y: -0.0000000024607623, z: 1.9597738}
+      rotation: {x: -0, y: -0, z: -7.861766e-15, w: 1}
+      scale: {x: 0.99999964, y: 0.99999976, z: 0.9999998}
+    - name: BND_C_Tongue1
+      parentName: BND_C_Jaw1
+      position: {x: 2.8892274, y: -0.000000058118406, z: 3.9654272}
+      rotation: {x: -0.6511441, y: 0.2757015, z: 0.27570143, w: 0.65114427}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: BND_C_Tongue2
+      parentName: BND_C_Tongue1
+      position: {x: -1.179064, y: -1.4210855e-14, z: -7.1054274e-15}
+      rotation: {x: -0.00000017881395, y: 0.00000005960465, z: 0.07523737, w: 0.9971657}
+      scale: {x: 1.0000002, y: 0.9999995, z: 0.99999994}
+    - name: BND_L_UpperEyelid1
+      parentName: BND_C_Head
+      position: {x: -2.201794, y: -3.2565231, z: 6.0683804}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_LowerEyelid1
+      parentName: BND_C_Head
+      position: {x: -2.101794, y: -3.2565231, z: 6.0683804}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_UpperEyelid1
+      parentName: BND_C_Head
+      position: {x: -2.2018569, y: 3.25652, z: 6.068379}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_LowerEyelid1
+      parentName: BND_C_Head
+      position: {x: -2.1018567, y: 3.25652, z: 6.068379}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_BrowInner1
+      parentName: BND_C_Head
+      position: {x: -3.4640744, y: -1.5408757, z: 8.341345}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_BrowMid1
+      parentName: BND_C_Head
+      position: {x: -4.2512608, y: -3.5168533, z: 7.748644}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_BrowOuter1
+      parentName: BND_C_Head
+      position: {x: -3.9665337, y: -5.1800585, z: 6.149497}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_BrowInner1
+      parentName: BND_C_Head
+      position: {x: -3.4638567, y: 1.54088, z: 8.341349}
+      rotation: {x: -0.70710677, y: 0.7071068, z: 0.0000000136797516, w: -0.000000007450581}
+      scale: {x: 1.0000008, y: 0.9999997, z: 1.0000012}
+    - name: BND_R_BrowMid1
+      parentName: BND_C_Head
+      position: {x: -4.250857, y: 3.51685, z: 7.748639}
+      rotation: {x: -0.70710677, y: 0.7071068, z: 0.0000000136797516, w: -0.000000007450581}
+      scale: {x: 1.0000008, y: 0.9999997, z: 1.0000012}
+    - name: BND_R_BrowOuter1
+      parentName: BND_C_Head
+      position: {x: -3.9668567, y: 5.18006, z: 6.149499}
+      rotation: {x: -0.70710677, y: 0.7071068, z: 0.0000000136797516, w: -0.000000007450581}
+      scale: {x: 1.0000008, y: 0.9999997, z: 1.0000012}
+    - name: BND_C_MouthUpper1
+      parentName: BND_C_Head
+      position: {x: 2.9655676, y: 1.7763568e-14, z: 8.99547}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_MouthUpper1
+      parentName: BND_C_Head
+      position: {x: 2.9297056, y: -0.88691884, z: 8.702673}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_MouthUpper2
+      parentName: BND_C_Head
+      position: {x: 2.9655676, y: -1.5782706, z: 8.149522}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_MouthCorner1
+      parentName: BND_C_Head
+      position: {x: 3.4820325, y: -2.2430885, z: 7.6961827}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_MouthLower2
+      parentName: BND_C_Head
+      position: {x: 3.7624185, y: -1.3982507, z: 7.9254527}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_MouthLower1
+      parentName: BND_C_Head
+      position: {x: 3.8422053, y: -0.69953513, z: 8.307381}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_C_MouthLower1
+      parentName: BND_C_Head
+      position: {x: 3.940283, y: 2.1316282e-14, z: 8.5744295}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_MouthLower1
+      parentName: BND_C_Head
+      position: {x: 3.7621434, y: 1.39825, z: 7.925449}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_MouthLower2
+      parentName: BND_C_Head
+      position: {x: 3.8421433, y: 0.69953495, z: 8.307379}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_MouthCorner1
+      parentName: BND_C_Head
+      position: {x: 3.4821432, y: 2.24309, z: 7.696179}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_MouthUpper2
+      parentName: BND_C_Head
+      position: {x: 2.9651432, y: 1.57827, z: 8.149519}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_MouthUpper1
+      parentName: BND_C_Head
+      position: {x: 2.9301434, y: 0.88691896, z: 8.702669}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_HairFront2_1
+      parentName: BND_C_Head
+      position: {x: -11.846739, y: 4.2948885, z: 10.335359}
+      rotation: {x: 0.76352185, y: 0.18892501, z: 0.09826764, w: 0.60965997}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000007}
+    - name: BND_R_HairFront2_2
+      parentName: BND_R_HairFront2_1
+      position: {x: 5.815, y: 1.4210855e-14, z: 6.3948846e-14}
+      rotation: {x: 0.000000059604645, y: 0.00000008195639, z: -0.41376364, w: 0.9103844}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: BND_R_HairFront1_1
+      parentName: BND_C_Head
+      position: {x: -9.810815, y: 2.63462, z: 11.426078}
+      rotation: {x: 0.79593396, y: 0.11274316, z: 0.16177185, w: 0.57237047}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: BND_R_HairFront1_2
+      parentName: BND_R_HairFront1_1
+      position: {x: 7.965, y: 0, z: 5.684342e-14}
+      rotation: {x: 0.00000020861623, y: -0, z: -0.4006894, w: 0.9162139}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000004}
+    - name: BND_L_HairFront1_1
+      parentName: BND_C_Head
+      position: {x: -8.791996, y: -6.311901, z: 8.703848}
+      rotation: {x: 0.15581146, y: 0.6429089, z: 0.7499272, w: 0.00032781996}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000004}
+    - name: BND_L_HairFront1_2
+      parentName: BND_L_HairFront1_1
+      position: {x: -10.595, y: -2.1316282e-14, z: 1.4210855e-14}
+      rotation: {x: 0.00000016391279, y: -0.00000005960465, z: 0.40015188, w: 0.9164489}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000004}
+    - name: BND_L_HairSide1_1
+      parentName: BND_C_Head
+      position: {x: 6.6732106, y: -7.5243535, z: 4.7911253}
+      rotation: {x: 0.000000010606622, y: 0.0000000055879354, z: 0.7071067, w: 0.7071068}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: BND_R_HairSide1_1
+      parentName: BND_C_Head
+      position: {x: 6.6731434, y: 7.52435, z: 4.791129}
+      rotation: {x: 0.7071068, y: 0.7071067, z: -0.0000000068093455, w: -0.000000013038516}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000006}
+    - name: BND_R_HairFront3_1
+      parentName: BND_C_Head
+      position: {x: -10.335112, y: 5.2871537, z: 6.0945206}
+      rotation: {x: 0.76002246, y: 0.15783003, z: -0.031179618, w: 0.62966925}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: BND_R_HairFront3_2
+      parentName: BND_R_HairFront3_1
+      position: {x: 10.793826, y: -7.1054274e-15, z: 5.151435e-14}
+      rotation: {x: 0.011548131, y: -0.08401326, z: -0.27877083, w: 0.9566061}
+      scale: {x: 1.0000006, y: 0.99999994, z: 1.0000002}
+    - name: BND_R_Clav1
+      parentName: BND_C_Spine4
+      position: {x: 2.8044474, y: 15.936799, z: -5.203413}
+      rotation: {x: 0.99949306, y: 1.2789768e-13, z: -0.000006246752, w: 0.031837024}
+      scale: {x: 1.0000001, y: 1.0000014, z: 1.0000018}
+    - name: BND_R_Arm1
+      parentName: BND_R_Clav1
+      position: {x: 10.265226, y: 2.504854, z: 0.9480667}
+      rotation: {x: 0.030855453, y: -0.001069495, z: 0.028375207, w: 0.9991205}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
+    - name: BND_R_Arm2
+      parentName: BND_R_Arm1
+      position: {x: 22.10546, y: -0.00022424576, z: -0.00013686791}
+      rotation: {x: -0.00036692247, y: 0.035387527, z: -0.0076465, w: 0.9993444}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000002}
+    - name: BND_R_Arm3
+      parentName: BND_R_Arm2
+      position: {x: 23.080532, y: 0.0006032933, z: -0.000038898746}
+      rotation: {x: 0.03313939, y: 0.025085574, z: 0.05165181, w: 0.9977999}
+      scale: {x: 1.0000015, y: 1.0000001, z: 0.9999991}
+    - name: BND_R_Thumb1
+      parentName: BND_R_Arm3
+      position: {x: 1.0743499, y: 1.1660062, z: -1.0039241}
+      rotation: {x: 0.4498351, y: 0.422201, z: -0.24828742, w: 0.7468254}
+      scale: {x: 0.9999995, y: 1, z: 0.99999994}
+    - name: BND_R_Thumb2
+      parentName: BND_R_Thumb1
+      position: {x: 3.4468822, y: -0.00022558226, z: 0.00006262026}
+      rotation: {x: -0.024935028, y: 0.01628142, z: -0.027245617, w: -0.9991851}
+      scale: {x: 0.9999998, y: 1.0000006, z: 1.0000001}
+    - name: BND_R_Thumb3
+      parentName: BND_R_Thumb2
+      position: {x: 4.6410313, y: -0.00011327621, z: 0.00022715353}
+      rotation: {x: 0.0000029336654, y: -0.000011673194, z: 0.037220754, w: 0.9993071}
+      scale: {x: 0.99999964, y: 1.0000001, z: 1}
+    - name: BND_R_Thumb4
+      parentName: BND_R_Thumb3
+      position: {x: 2.8863773, y: 0.00020182633, z: 0.00004921294}
+      rotation: {x: -0, y: -0, z: -1.0824673e-15, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: BND_R_Index1
+      parentName: BND_R_Arm3
+      position: {x: 3.9450696, y: -0.12286924, z: -2.5591388}
+      rotation: {x: 0.09612498, y: 0.06081146, z: -0.1285608, w: 0.98515695}
+      scale: {x: 0.9999996, y: 0.99999976, z: 1}
+    - name: BND_R_Index2
+      parentName: BND_R_Index1
+      position: {x: 4.2310467, y: 0.5205944, z: -0.40811244}
+      rotation: {x: -0.04746512, y: 0.007614012, z: 0.051025648, w: 0.99753976}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000001}
+    - name: BND_R_Index3
+      parentName: BND_R_Index2
+      position: {x: 4.0514174, y: -0.00029232993, z: 0.000021793516}
+      rotation: {x: 0.000000011175871, y: -0.000000007450581, z: 0.028172577, w: 0.99960315}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+    - name: BND_R_Index4
+      parentName: BND_R_Index3
+      position: {x: 2.2550356, y: 0.00023501526, z: -0.00002472669}
+      rotation: {x: 0.000000018252264, y: -0.0000000046322155, z: -0.034576144, w: 0.9994021}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: BND_R_Index5
+      parentName: BND_R_Index4
+      position: {x: 1.8820285, y: 0.00025191205, z: 0.000004332698}
+      rotation: {x: 0.000000055878203, y: 3.58002e-10, z: 0.0000000037252894, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: BND_R_Middle1
+      parentName: BND_R_Arm3
+      position: {x: 3.9727845, y: -1.0492738, z: -1.0573747}
+      rotation: {x: 0.010169454, y: 0.08586812, z: -0.15384023, w: 0.984305}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: BND_R_Middle2
+      parentName: BND_R_Middle1
+      position: {x: 4.4301095, y: 0.8285825, z: -0.11587536}
+      rotation: {x: -0.038911074, y: -0.0063729645, z: 0.058150426, w: 0.9975289}
+      scale: {x: 0.99999964, y: 1, z: 1}
+    - name: BND_R_Middle3
+      parentName: BND_R_Middle2
+      position: {x: 4.174943, y: -0.00007202524, z: 0.0000049343303}
+      rotation: {x: 0.00000003352759, y: 0.0000004954633, z: 0.04115987, w: 0.99915266}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: BND_R_Middle4
+      parentName: BND_R_Middle3
+      position: {x: 3.0193717, y: 0.00045058518, z: 0.000017464317}
+      rotation: {x: -9.2290964e-10, y: -0.00000001172333, z: -0.050862905, w: 0.9987057}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: BND_R_Middle5
+      parentName: BND_R_Middle4
+      position: {x: 2.3385327, y: -0.00006946687, z: -0.000010057903}
+      rotation: {x: -0, y: -0, z: -1.0819573e-17, w: 1}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+    - name: BND_R_Ring1
+      parentName: BND_R_Arm3
+      position: {x: 3.894562, y: -1.0899298, z: 0.53624004}
+      rotation: {x: -0.031580202, y: 0.08206099, z: -0.17578205, w: 0.98049444}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: BND_R_Ring2
+      parentName: BND_R_Ring1
+      position: {x: 4.468073, y: 1.018518, z: -0.07227899}
+      rotation: {x: -0.09879686, y: 0.0030362378, z: 0.07436806, w: 0.9923203}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1}
+    - name: BND_R_Ring3
+      parentName: BND_R_Ring2
+      position: {x: 3.8938096, y: -0.00033783604, z: -0.00006806901}
+      rotation: {x: -0.0010579079, y: 0.0071405284, z: -0.010192791, w: 0.99992204}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: BND_R_Ring4
+      parentName: BND_R_Ring3
+      position: {x: 2.833042, y: 0.0002214372, z: 0.000046584413}
+      rotation: {x: 0.0000000018626449, y: -0.0000000046566124, z: -0.056106735, w: 0.9984248}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: BND_R_Ring5
+      parentName: BND_R_Ring4
+      position: {x: 2.17468, y: 0.00009919751, z: 0.000017881035}
+      rotation: {x: 0.000000037296044, y: 0.0000000044278403, z: -0.000000029802315, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: BND_R_Pinky1
+      parentName: BND_R_Arm3
+      position: {x: 2.7099001, y: -0.08861627, z: 1.7585738}
+      rotation: {x: -0.13490714, y: 0.11538175, z: -0.19788541, w: 0.96401685}
+      scale: {x: 1, y: 0.9999998, z: 0.99999976}
+    - name: BND_R_Pinky2
+      parentName: BND_R_Pinky1
+      position: {x: 4.9698896, y: 1.2874206, z: 0.46004823}
+      rotation: {x: -0.014492848, y: -0.013663077, z: 0.10765576, w: 0.99398875}
+      scale: {x: 0.99999964, y: 1.0000006, z: 1.0000002}
+    - name: BND_R_Pinky3
+      parentName: BND_R_Pinky2
+      position: {x: 3.878131, y: -0.00028169344, z: -0.000073626645}
+      rotation: {x: -0.0000000018626449, y: 0.00000002235174, z: 0.020335263, w: 0.99979323}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: BND_R_Pinky4
+      parentName: BND_R_Pinky3
+      position: {x: 2.0872886, y: -0.00018567052, z: -0.00006109206}
+      rotation: {x: 0.00000002333845, y: -3.7008077e-10, z: -0.04434753, w: 0.99901617}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.9999998}
+    - name: BND_R_Pinky5
+      parentName: BND_R_Pinky4
+      position: {x: 1.836, y: 0.00034272257, z: 0.00009771413}
+      rotation: {x: 0.000000029793718, y: 7.1594497e-10, z: 0.000000029802315, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: BND_R_Arm2Twist1
+      parentName: BND_R_Arm2
+      position: {x: -0.000000006502603, y: 0.00042966707, z: 0.000000085546034}
+      rotation: {x: 0.00000003003879, y: -0.000000007450581, z: -0.000009371732, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: BND_R_Arm2Twist2
+      parentName: BND_R_Arm2
+      position: {x: 11.6, y: 0.00021372925, z: 0.00000015407943}
+      rotation: {x: 0.00000003003879, y: -0.000000007450581, z: -0.000009371732, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: BND_R_Arm2Twist3
+      parentName: BND_R_Arm2
+      position: {x: 23.1, y: -0.00000034704436, z: 0.00000022202204}
+      rotation: {x: 0.00000003003879, y: -0.000000007450581, z: -0.000009371732, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: BND_R_Arm1Twist1
+      parentName: BND_R_Arm1
+      position: {x: 4.2632564e-14, y: 2.842171e-14, z: 8.881784e-16}
+      rotation: {x: -0.015436193, y: -0.0000001527369, z: 0.000009773561, w: 0.9998809}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+    - name: BND_R_Arm1Twist2
+      parentName: BND_R_Arm1
+      position: {x: 11.1, y: 0.00021577935, z: 4.440892e-15}
+      rotation: {x: -0.0077183377, y: -0.00000007171184, z: 0.000009687297, w: 0.99997026}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000001}
+    - name: BND_R_Arm1Twist3
+      parentName: BND_R_Arm1
+      position: {x: 22.1, y: 0.00042961474, z: 4.440892e-15}
+      rotation: {x: 0.0000000018626454, y: 9.313227e-10, z: 0.000009696932, w: 1}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000002}
+    - name: BND_R_Arm1_noTwist
+      parentName: BND_R_Clav1
+      position: {x: 10.265226, y: 2.504854, z: 0.9480667}
+      rotation: {x: 0.000000011175871, y: -0.020142617, z: 0.2934418, w: 0.9557647}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_PonchoFront_1
+      parentName: BND_C_Spine4
+      position: {x: -6.6771326, y: 21.035795, z: 2.6522856}
+      rotation: {x: 0.3134471, y: 0.2889137, z: 0.47716236, w: 0.7685024}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+    - name: BND_L_PonchoFront_2
+      parentName: BND_L_PonchoFront_1
+      position: {x: -7.4593873, y: 2.1316282e-14, z: 3.5527137e-15}
+      rotation: {x: 0.008687736, y: -0.025905358, z: -0.14379938, w: 0.9892296}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
+    - name: BND_L_PonchoFront_3
+      parentName: BND_L_PonchoFront_2
+      position: {x: -5.1421127, y: 7.1054274e-15, z: 1.110223e-16}
+      rotation: {x: 0.034434505, y: -0.007269633, z: -0.0027926927, w: 0.9993766}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: BND_L_PonchoFront_4
+      parentName: BND_L_PonchoFront_3
+      position: {x: -4.7726245, y: -7.1054274e-15, z: 0}
+      rotation: {x: 0.04175565, y: -0.040313873, z: 0.11418428, w: 0.99176276}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: BND_L_PonchoFront_5
+      parentName: BND_L_PonchoFront_4
+      position: {x: -4.6112094, y: 7.1054274e-15, z: -1.8096635e-14}
+      rotation: {x: -0.010774139, y: 0.9988162, z: 0.044097893, w: 0.01748023}
+      scale: {x: 0.99999964, y: 0.9999998, z: 0.9999998}
+    - name: BND_L_PonchoSide_1
+      parentName: BND_C_Spine4
+      position: {x: -10.796926, y: 21.641792, z: -3.3422418}
+      rotation: {x: 0.07862597, y: -0.013850274, z: 0.47943994, w: 0.8739356}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: BND_L_PonchoSide_2
+      parentName: BND_L_PonchoSide_1
+      position: {x: -7.419968, y: 0, z: 3.5527137e-15}
+      rotation: {x: 0.0035633738, y: 0.02577775, z: -0.21738784, w: 0.97573835}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000005}
+    - name: BND_L_PonchoSide_3
+      parentName: BND_L_PonchoSide_2
+      position: {x: -4.4846225, y: 0, z: -2.6645353e-15}
+      rotation: {x: -0.032689206, y: -0.008608002, z: -0.033787906, w: 0.99885726}
+      scale: {x: 1, y: 0.99999994, z: 0.9999996}
+    - name: BND_L_PonchoSide_4
+      parentName: BND_L_PonchoSide_3
+      position: {x: -4.260476, y: 1.4210855e-14, z: -1.15463195e-14}
+      rotation: {x: -0.010975294, y: -0.09120777, z: -0.021731602, w: 0.9955343}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000002}
+    - name: BND_L_PonchoSide_5
+      parentName: BND_L_PonchoSide_4
+      position: {x: -4.074201, y: -2.842171e-14, z: 4.440892e-15}
+      rotation: {x: 0.05784554, y: 0.9977788, z: -0.015139181, w: 0.02936542}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: BND_L_PonchoBack_1
+      parentName: BND_C_Spine4
+      position: {x: -8.340394, y: 22.61741, z: -9.69247}
+      rotation: {x: -0.2716723, y: -0.27782485, z: 0.5047985, w: 0.7708347}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: BND_L_PonchoBack_2
+      parentName: BND_L_PonchoBack_1
+      position: {x: -9.161647, y: -8.881784e-15, z: -1.5099033e-14}
+      rotation: {x: -0.08327795, y: 0.078579746, z: -0.023631264, w: 0.99314225}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: BND_L_PonchoBack_3
+      parentName: BND_L_PonchoBack_2
+      position: {x: -5.455011, y: -1.2434498e-14, z: 3.1974423e-14}
+      rotation: {x: -0.07775606, y: 0.023777168, z: -0.04078803, w: 0.9958539}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.0000004}
+    - name: BND_L_PonchoBack_4
+      parentName: BND_L_PonchoBack_3
+      position: {x: -5.009167, y: 0, z: -2.1316282e-14}
+      rotation: {x: -0.057372857, y: -0.024418265, z: -0.043172654, w: 0.99711996}
+      scale: {x: 1.0000001, y: 1, z: 0.9999997}
+    - name: BND_L_PonchoBack_5
+      parentName: BND_L_PonchoBack_4
+      position: {x: -5.4756384, y: -1.4210855e-14, z: 7.1054274e-15}
+      rotation: {x: 0.029671645, y: 0.9964943, z: -0.07795988, w: -0.0064049447}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: BND_R_PonchoFront_1
+      parentName: BND_C_Spine4
+      position: {x: 5.0383554, y: 21.97049, z: 2.6805658}
+      rotation: {x: 0.4771581, y: 0.76850724, z: 0.31344265, w: 0.2889124}
+      scale: {x: 1.0000004, y: 1, z: 1.0000005}
+    - name: BND_R_PonchoFront_2
+      parentName: BND_R_PonchoFront_1
+      position: {x: -6.8657765, y: 0, z: -2.842171e-14}
+      rotation: {x: -0.008689165, y: 0.025910586, z: -0.1437945, w: 0.98923016}
+      scale: {x: 1.0000006, y: 1, z: 1.0000007}
+    - name: BND_R_PonchoFront_3
+      parentName: BND_R_PonchoFront_2
+      position: {x: -4.3788447, y: 0, z: 0}
+      rotation: {x: -0.03443312, y: 0.0072631035, z: -0.00278696, w: 0.9993768}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000007}
+    - name: BND_R_PonchoFront_4
+      parentName: BND_R_PonchoFront_3
+      position: {x: -4.1204348, y: -1.4210855e-14, z: 1.4210855e-14}
+      rotation: {x: -0.041755885, y: 0.040315315, z: 0.11418375, w: 0.9917627}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: BND_R_PonchoFront_5
+      parentName: BND_R_PonchoFront_4
+      position: {x: -4.477811, y: 2.842171e-14, z: 0}
+      rotation: {x: 0.010773197, y: -0.9988163, z: 0.044096716, w: 0.017479137}
+      scale: {x: 0.9999995, y: 1.0000002, z: 0.99999964}
+    - name: BND_R_PonchoSide_1
+      parentName: BND_C_Spine4
+      position: {x: 5.5996656, y: 25.332628, z: -3.7302215}
+      rotation: {x: 0.4794467, y: 0.8739329, z: 0.078614436, w: -0.01385657}
+      scale: {x: 1.0000008, y: 1, z: 1.0000011}
+    - name: BND_R_PonchoSide_2
+      parentName: BND_R_PonchoSide_1
+      position: {x: -5.9640083, y: 2.842171e-14, z: -2.1316282e-14}
+      rotation: {x: -0.0035703564, y: -0.02577969, z: -0.21739191, w: 0.9757374}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000004}
+    - name: BND_R_PonchoSide_3
+      parentName: BND_R_PonchoSide_2
+      position: {x: -3.7692175, y: 1.4210855e-14, z: 7.1054274e-15}
+      rotation: {x: 0.032687012, y: 0.008612233, z: -0.03379088, w: 0.99885714}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: BND_R_PonchoSide_4
+      parentName: BND_R_PonchoSide_3
+      position: {x: -4.0842395, y: -2.842171e-14, z: 5.3290705e-15}
+      rotation: {x: 0.0109739965, y: 0.09120957, z: -0.021732403, w: 0.99553406}
+      scale: {x: 1.0000001, y: 1, z: 1.000001}
+    - name: BND_R_PonchoSide_5
+      parentName: BND_R_PonchoSide_4
+      position: {x: -4.0996933, y: 2.842171e-14, z: -3.5527137e-15}
+      rotation: {x: -0.057844512, y: -0.99777883, z: -0.015139872, w: 0.02936298}
+      scale: {x: 1.0000004, y: 1, z: 0.9999998}
+    - name: BND_R_PonchoBack_1
+      parentName: BND_C_Spine4
+      position: {x: 3.932795, y: 25.127958, z: -9.646721}
+      rotation: {x: 0.5047927, y: 0.77083343, z: -0.27168027, w: -0.277831}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: BND_R_PonchoBack_2
+      parentName: BND_R_PonchoBack_1
+      position: {x: -5.9353833, y: 2.842171e-14, z: -1.15463195e-14}
+      rotation: {x: 0.08327778, y: -0.07857556, z: -0.023627158, w: 0.9931427}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: BND_R_PonchoBack_3
+      parentName: BND_R_PonchoBack_2
+      position: {x: -4.680915, y: 2.842171e-14, z: 0}
+      rotation: {x: 0.077754356, y: -0.023789022, z: -0.040790327, w: 0.99585366}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: BND_R_PonchoBack_4
+      parentName: BND_R_PonchoBack_3
+      position: {x: -3.4295654, y: -1.4210855e-14, z: 1.4210855e-14}
+      rotation: {x: 0.05736719, y: 0.024439463, z: -0.043169968, w: 0.9971199}
+      scale: {x: 1.0000014, y: 1.0000004, z: 1.0000006}
+    - name: BND_R_PonchoBack_5
+      parentName: BND_R_PonchoBack_4
+      position: {x: -3.2431595, y: 0, z: -2.842171e-14}
+      rotation: {x: -0.02967082, y: -0.99649394, z: -0.07796367, w: -0.0064146076}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000004}
+    - name: BND_C_PonchoFront_1
+      parentName: BND_C_Spine4
+      position: {x: -0.08806916, y: 19.497114, z: 5.4020977}
+      rotation: {x: 0.40481958, y: 0.5797622, z: 0.40481707, w: 0.5797586}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000006}
+    - name: BND_C_PonchoFront_2
+      parentName: BND_C_PonchoFront_1
+      position: {x: -7.229561, y: 3.5527137e-15, z: 1.4210855e-14}
+      rotation: {x: 0.000000044703484, y: 0.00000011920929, z: -0.055891514, w: 0.99843687}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000005}
+    - name: BND_C_PonchoFront_3
+      parentName: BND_C_PonchoFront_2
+      position: {x: -4.422327, y: 0, z: -2.1316282e-14}
+      rotation: {x: -0.00000007503009, y: -0.00000020790316, z: 0.10287975, w: 0.9946939}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000006}
+    - name: BND_C_PonchoFront_4
+      parentName: BND_C_PonchoFront_3
+      position: {x: -4.723491, y: -1.4210855e-14, z: -1.4210855e-14}
+      rotation: {x: 0.000000057757813, y: 0.00000008322437, z: 0.103207305, w: 0.9946599}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: BND_C_PonchoFront_5
+      parentName: BND_C_PonchoFront_4
+      position: {x: -6.6892047, y: 0, z: 1.4210855e-14}
+      rotation: {x: 0.017866468, y: -0.9998404, z: -0.000000010305622, w: -0.0000000314371}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000007}
+    - name: BND_C_PonchoBack_1
+      parentName: BND_C_Spine4
+      position: {x: -0.8393016, y: 24.346016, z: -12.131683}
+      rotation: {x: -0.4670745, y: -0.53088444, z: 0.46707743, w: 0.5308878}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: BND_C_PonchoBack_2
+      parentName: BND_C_PonchoBack_1
+      position: {x: -8.169133, y: 7.1054274e-15, z: -1.0658141e-14}
+      rotation: {x: 0.000000014901161, y: -0.000000029802322, z: 0.009643301, w: 0.99995357}
+      scale: {x: 1.0000008, y: 1.0000004, z: 0.99999994}
+    - name: BND_C_PonchoBack_3
+      parentName: BND_C_PonchoBack_2
+      position: {x: -5.415564, y: 1.4210855e-14, z: -1.4210855e-14}
+      rotation: {x: -0.000000029443841, y: -0.000000029207534, z: 0.021410812, w: 0.9997708}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000005}
+    - name: BND_C_PonchoBack_4
+      parentName: BND_C_PonchoBack_3
+      position: {x: -5.511223, y: -3.5527137e-15, z: -1.2434498e-14}
+      rotation: {x: -2.1555907e-10, y: -0.000000060063726, z: 0.02777171, w: 0.9996143}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: BND_C_PonchoBack_5
+      parentName: BND_C_PonchoBack_4
+      position: {x: -7.245353, y: 3.5527137e-15, z: -1.5987212e-14}
+      rotation: {x: 0.0029543824, y: -0.9999957, z: 0.000000025897291, w: 0.000000061188636}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.99999976}
+    - name: BND_C_Pelvis1
+      parentName: BND_C_Spine2
+      position: {x: 0.32653528, y: -7.479464, z: -0.60247827}
+      rotation: {x: -0.0014045667, y: -0, z: -0, w: 0.99999905}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999998}
+    - name: BND_L_Leg1
+      parentName: BND_C_Pelvis1
+      position: {x: -7.934087, y: -4.097561, z: -0.77671474}
+      rotation: {x: 0.0032254579, y: 0.0063255783, z: 0.7086681, w: 0.7055063}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: BND_L_Leg2
+      parentName: BND_L_Leg1
+      position: {x: -46.29869, y: 0.0000011325423, z: 0.0000054654115}
+      rotation: {x: -0.0000000016298143, y: -0.063718215, z: -0.000000058382277, w: 0.997968}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: BND_L_Leg3
+      parentName: BND_L_Leg2
+      position: {x: -41.160362, y: -0.0000092332175, z: 0.000002638463}
+      rotation: {x: -0.0035934877, y: 0.74923897, z: -0.0061403844, w: 0.6622615}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: BND_L_Toe1
+      parentName: BND_L_Leg3
+      position: {x: -9.098696, y: 0.32956225, z: -10.07101}
+      rotation: {x: 0.000000008381901, y: -0.049902905, z: 0.00000007147899, w: 0.99875414}
+      scale: {x: 1.0000006, y: 1, z: 1.0000006}
+    - name: BND_L_Leg2Twist1
+      parentName: BND_L_Leg2
+      position: {x: -0.1, y: 0.00000031739677, z: -3.7950088e-10}
+      rotation: {x: 0.000000004697754, y: 0.000032559034, z: 0.000000015141959, w: 1}
+      scale: {x: 0.9999997, y: 1.0000001, z: 1}
+    - name: BND_L_Leg2Twist2
+      parentName: BND_L_Leg2
+      position: {x: -20.6, y: 0.0000001589035, z: -5.494485e-10}
+      rotation: {x: 0.000000004697754, y: 0.000032559034, z: 0.000000015141959, w: 1}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: BND_L_Leg2Twist3
+      parentName: BND_L_Leg2
+      position: {x: -41.1, y: 4.1022474e-10, z: -7.193961e-10}
+      rotation: {x: 0.000000004697754, y: 0.000032559034, z: 0.000000015141959, w: 1}
+      scale: {x: 0.9999997, y: 1.0000001, z: 0.99999994}
+    - name: BND_L_Leg1Twist1
+      parentName: BND_L_Leg1
+      position: {x: -0.1, y: 6.8719075e-10, z: -8.1357143e-13}
+      rotation: {x: 0.0022820125, y: 4.6566123e-10, z: 0.000000010984876, w: 0.99999744}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: BND_L_Leg1Twist2
+      parentName: BND_L_Leg1
+      position: {x: -23.15, y: 0.00000015908947, z: -1.9089796e-10}
+      rotation: {x: 0.00114101, y: 4.6566123e-10, z: -0.0000000035797707, w: 0.99999934}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: PRC_L_Leg1Twist3
+      parentName: BND_L_Leg1
+      position: {x: -46.2, y: 0.00000031749173, z: -3.8096815e-10}
+      rotation: {x: -9.3132235e-10, y: 0.0000000013969835, z: -0.00000007770539, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999998}
+    - name: BND_L_BootFlap1
+      parentName: BND_L_Leg1
+      position: {x: -24.925709, y: 10.924636, z: -1.1236323}
+      rotation: {x: -0.7112926, y: -0.03118735, z: 0.028516667, w: 0.70162463}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: BND_L_BootFlap2
+      parentName: BND_L_BootFlap1
+      position: {x: -7.5486856, y: -5.0448534e-13, z: 3.7047698e-11}
+      rotation: {x: -0.000000059604638, y: 0.096777394, z: 0.00000006146728, w: 0.9953061}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: BND_R_Leg1
+      parentName: BND_C_Pelvis1
+      position: {x: 7.93409, y: -4.097827, z: -0.7767149}
+      rotation: {x: -0.70550627, y: 0.7086682, z: -0.0063256808, w: 0.0032255545}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: BND_R_Leg2
+      parentName: BND_R_Leg1
+      position: {x: 46.2984, y: -0.00000057627875, z: -0.000011751907}
+      rotation: {x: 0.000000029802319, y: -0.06371822, z: -0.000000059604638, w: 0.99796796}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: BND_R_Leg3
+      parentName: BND_R_Leg2
+      position: {x: 41.160423, y: 0.000013149667, z: -0.0000007273934}
+      rotation: {x: 0.0035960383, y: -0.74925655, z: 0.0061410265, w: -0.66224164}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: BND_R_Toe1
+      parentName: BND_R_Leg3
+      position: {x: 9.0987, y: -0.32956, z: 10.07099}
+      rotation: {x: 0.000000011175868, y: -0.049908, z: 0.000001345528, w: 0.9987539}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: BND_R_Leg2Twist1
+      parentName: BND_R_Leg2
+      position: {x: 0.1, y: -3.6791903e-11, z: 2.842171e-14}
+      rotation: {x: -0.000000003717998, y: 0.0000045299525, z: 2.3725108e-10, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: BND_R_Leg2Twist2
+      parentName: BND_R_Leg2
+      position: {x: 20.6, y: -1.842082e-11, z: 7.1054274e-15}
+      rotation: {x: -0.000000013132569, y: 0.0000045448537, z: -0.00000008875065, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: BND_R_Leg2Twist3
+      parentName: BND_R_Leg2
+      position: {x: 41.1, y: -4.6185278e-14, z: -2.1316282e-14}
+      rotation: {x: -0.000000003717998, y: 0.0000045299525, z: 2.3725108e-10, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: BND_R_Leg1Twist1
+      parentName: BND_R_Leg1
+      position: {x: 0.1, y: -6.750156e-14, z: 0}
+      rotation: {x: -0.000003926455, y: -6.9849176e-10, z: -0.00000023841852, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: BND_R_Leg1Twist2
+      parentName: BND_R_Leg1
+      position: {x: 23.15, y: -1.842082e-11, z: -1.1368684e-13}
+      rotation: {x: -0.000001965323, y: 0.0000000020954753, z: -0.00000017881389, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: BND_R_Leg1Twist3
+      parentName: BND_R_Leg1
+      position: {x: 46.2, y: -3.6777692e-11, z: -1.2789769e-13}
+      rotation: {x: -2.3283062e-10, y: 4.6566123e-10, z: -0.00000008940696, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: BND_R_BootFlap1
+      parentName: BND_R_Leg1
+      position: {x: 24.925447, y: -10.924629, z: 1.1229782}
+      rotation: {x: -0.7112923, y: -0.031178083, z: 0.028526064, w: 0.70162493}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: BND_R_BootFlap2
+      parentName: BND_R_BootFlap1
+      position: {x: 7.548728, y: 1.4210855e-14, z: -0.00003954458}
+      rotation: {x: 0.00000005960463, y: -0.096777454, z: 0.000000011175868, w: -0.995306}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: BND_L_SkirtFlapFront1
+      parentName: BND_C_Pelvis1
+      position: {x: -8.488023, y: 3.0211492, z: 9.819576}
+      rotation: {x: -0.16115281, y: -0.010716668, z: 0.64729255, w: 0.74493444}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: BND_L_SkirtFlapFront2
+      parentName: BND_L_SkirtFlapFront1
+      position: {x: -7.9810095, y: -2.842171e-14, z: -4.973799e-14}
+      rotation: {x: -0.010796077, y: -0.03627086, z: 0.054299153, w: 0.9978074}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: BND_L_SkirtFlapFront3
+      parentName: BND_L_SkirtFlapFront2
+      position: {x: -8.722548, y: 1.7763568e-14, z: 5.684342e-14}
+      rotation: {x: -0, y: -0, z: 8.731147e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: BND_R_SkirtFlapFront1
+      parentName: BND_C_Pelvis1
+      position: {x: 8.48802, y: 3.0211728, z: 9.819599}
+      rotation: {x: 0.74493444, y: -0.64729255, z: -0.010716668, w: 0.16115281}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000007}
+    - name: BND_R_SkirtFlapFront2
+      parentName: BND_R_SkirtFlapFront1
+      position: {x: 7.9810057, y: -0.0000071315885, z: 0.000016546877}
+      rotation: {x: -0.010796077, y: -0.03627086, z: 0.054299198, w: 0.9978074}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: BND_R_SkirtFlapFront3
+      parentName: BND_R_SkirtFlapFront2
+      position: {x: 8.722536, y: 0.000024608054, z: 0.000008215218}
+      rotation: {x: -0, y: -0, z: 8.731147e-10, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: BND_L_SkirtFlapBack1
+      parentName: BND_C_Pelvis1
+      position: {x: -8.559612, y: 2.9592786, z: -9.90648}
+      rotation: {x: 0.72929025, y: 0.654232, z: 0.032042515, w: -0.19771096}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: BND_L_SkirtFlapBack2
+      parentName: BND_L_SkirtFlapBack1
+      position: {x: -8.633905, y: -0.099043764, z: 0.26336622}
+      rotation: {x: 0.01433417, y: -0.094453864, z: -0.03840166, w: 0.99468505}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: BND_L_SkirtFlapBack3
+      parentName: BND_L_SkirtFlapBack2
+      position: {x: -7.691415, y: 8.881784e-16, z: -3.5527137e-15}
+      rotation: {x: 9.3132246e-10, y: -0, z: -0.000000001513399, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: BND_R_SkirtFlapBack1
+      parentName: BND_C_Pelvis1
+      position: {x: 8.55961, y: 2.9591727, z: -9.906481}
+      rotation: {x: 0.19771096, y: 0.032042515, z: -0.654232, w: 0.72929025}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: BND_R_SkirtFlapBack2
+      parentName: BND_R_SkirtFlapBack1
+      position: {x: 8.63381, y: 0.099051304, z: -0.26340353}
+      rotation: {x: 0.01433417, y: -0.09445387, z: -0.038401667, w: 0.9946851}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: BND_R_SkirtFlapBack3
+      parentName: BND_R_SkirtFlapBack2
+      position: {x: 7.691418, y: 0.000037692786, z: 0.000009833859}
+      rotation: {x: 9.3132235e-10, y: -0, z: -0.0000000013969835, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: BND_R_PouchFront1
+      parentName: BND_C_Pelvis1
+      position: {x: 9.247826, y: 12.886946, z: 3.3449123}
+      rotation: {x: 0.72589827, y: -0.56485254, z: -0.15974307, w: 0.35846272}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: BND_R_PouchBack1
+      parentName: BND_C_Pelvis1
+      position: {x: 5.511019, y: 11.769871, z: -9.474799}
+      rotation: {x: 0.4002985, y: -0.13497043, z: -0.51601446, w: 0.74516666}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: BND_L_BeltFront1
+      parentName: BND_C_Pelvis1
+      position: {x: -6.734383, y: 2.6620412, z: 14.655382}
+      rotation: {x: 0.060517896, y: -0.28779107, z: 0.12812568, w: 0.9471525}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: BND_L_BeltSide1
+      parentName: BND_C_Pelvis1
+      position: {x: -17.019268, y: -1.5764457, z: 5.5122366}
+      rotation: {x: 0.11476656, y: -0.6972002, z: 0.08180625, w: 0.70288575}
+      scale: {x: 1.0000005, y: 1, z: 1.0000004}
+    - name: BND_L_BeltBack1
+      parentName: BND_C_Pelvis1
+      position: {x: -13.421842, y: 1.1957653, z: -8.152096}
+      rotation: {x: -0.14181535, y: 0.94466233, z: -0.015950197, w: -0.29537606}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000007}
+    - name: BND_R_BeltFront1
+      parentName: BND_C_Pelvis1
+      position: {x: 7.1479325, y: 9.672741, z: 10.13419}
+      rotation: {x: -0.023261625, y: 0.29442033, z: 0.14408801, w: 0.9444651}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: BND_R_BeltSide1
+      parentName: BND_C_Pelvis1
+      position: {x: 10.8222065, y: 12.284887, z: -3.542388}
+      rotation: {x: -0.08604407, y: 0.6905273, z: 0.117893435, w: 0.70842767}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: BND_R_BeltBack1
+      parentName: BND_C_Pelvis1
+      position: {x: 0.5373177, y: 8.046411, z: -12.685532}
+      rotation: {x: -0.1342892, y: 0.9559444, z: 0.057173777, w: 0.25469154}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000005}
+    - name: BND_L_SkirtFront_1
+      parentName: BND_C_Spine2
+      position: {x: -7.8110857, y: 2.8846974, z: 6.5184994}
+      rotation: {x: 0.285604, y: 0.24167497, z: 0.53869015, w: 0.75487506}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.99999976}
+    - name: BND_L_SkirtFront_2
+      parentName: BND_L_SkirtFront_1
+      position: {x: -6.7312765, y: -7.1054274e-15, z: 7.1054274e-15}
+      rotation: {x: 0.034310445, y: -0.0027765036, z: -0.0085044205, w: 0.99937123}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000004}
+    - name: BND_L_SkirtFront_3
+      parentName: BND_L_SkirtFront_2
+      position: {x: -5.3379216, y: 0, z: 7.1054274e-15}
+      rotation: {x: 0.025380671, y: 0.0008775522, z: 0.008567576, w: 0.9996408}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: BND_L_SkirtFront_4
+      parentName: BND_L_SkirtFront_3
+      position: {x: -6.0181465, y: 0, z: -8.881784e-16}
+      rotation: {x: 0.030647911, y: 0.0013386564, z: -0.0004008351, w: 0.99952924}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: BND_L_SkirtFront_5
+      parentName: BND_L_SkirtFront_4
+      position: {x: -5.27845, y: 0, z: 7.1054274e-15}
+      rotation: {x: -0.0036210336, y: 0.9998162, z: 0.018346297, w: -0.0042398158}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.99999976}
+    - name: BND_L_SkirtSide_1
+      parentName: BND_C_Spine2
+      position: {x: -10.516128, y: 3.2653875, z: -0.90306896}
+      rotation: {x: 0.0075009004, y: -0.012505446, z: 0.54494643, w: 0.8383441}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: BND_L_SkirtSide_2
+      parentName: BND_L_SkirtSide_1
+      position: {x: -6.81645, y: -2.1316282e-14, z: -2.1316282e-14}
+      rotation: {x: -0.000025005076, y: -0.0030249045, z: -0.0072599533, w: 0.99996907}
+      scale: {x: 0.99999976, y: 0.99999994, z: 1.0000001}
+    - name: BND_L_SkirtSide_3
+      parentName: BND_L_SkirtSide_2
+      position: {x: -4.6905446, y: 1.4210855e-14, z: -7.1054274e-15}
+      rotation: {x: 0.00012219787, y: 0.003785987, z: -0.0026511534, w: 0.99998933}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: BND_L_SkirtSide_4
+      parentName: BND_L_SkirtSide_3
+      position: {x: -5.0023293, y: -1.4210855e-14, z: -1.0658141e-14}
+      rotation: {x: 0.0007075201, y: -0.00019766038, z: 0.008563547, w: 0.9999631}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: BND_L_SkirtSide_5
+      parentName: BND_L_SkirtSide_4
+      position: {x: -4.828303, y: 1.4210855e-14, z: 5.3290705e-15}
+      rotation: {x: -0.010082226, y: 0.9999482, z: 0.0007425674, w: -0.001181139}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: BND_L_SkirtBack_1
+      parentName: BND_C_Spine2
+      position: {x: -6.9031315, y: 3.4911923, z: -8.397989}
+      rotation: {x: -0.26663145, y: -0.2625069, z: 0.52942985, w: 0.7613815}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: BND_L_SkirtBack_2
+      parentName: BND_L_SkirtBack_1
+      position: {x: -7.3953843, y: -7.1054274e-15, z: 7.1054274e-15}
+      rotation: {x: -0.03320451, y: 0.00015601514, z: -0.012025684, w: 0.9993762}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000007}
+    - name: BND_L_SkirtBack_3
+      parentName: BND_L_SkirtBack_2
+      position: {x: -4.7014256, y: 7.1054274e-15, z: 7.1054274e-15}
+      rotation: {x: -0.025821183, y: 0.0050460235, z: 0.014241028, w: 0.9995525}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
+    - name: BND_L_SkirtBack_4
+      parentName: BND_L_SkirtBack_3
+      position: {x: -5.0659194, y: -3.5527137e-15, z: -2.1316282e-14}
+      rotation: {x: -0.03128477, y: -0.0028964698, z: -0.0012556653, w: 0.9995055}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: BND_L_SkirtBack_5
+      parentName: BND_L_SkirtBack_4
+      position: {x: -4.392811, y: -3.5527137e-15, z: 1.4210855e-14}
+      rotation: {x: -0.0041079423, y: 0.9998242, z: -0.01794537, w: 0.003547392}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: BND_R_SkirtFront_1
+      parentName: BND_C_Spine2
+      position: {x: 6.9923177, y: 2.628724, z: 6.433652}
+      rotation: {x: 0.53834486, y: 0.75513095, z: 0.28580302, w: 0.24140997}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: BND_R_SkirtFront_2
+      parentName: BND_R_SkirtFront_1
+      position: {x: -6.9845777, y: -7.1054274e-15, z: -1.4210855e-14}
+      rotation: {x: -0.034260422, y: 0.0032872707, z: -0.008434206, w: 0.999372}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: BND_R_SkirtFront_3
+      parentName: BND_R_SkirtFront_2
+      position: {x: -4.499503, y: 2.842171e-14, z: 2.1316282e-14}
+      rotation: {x: -0.025175009, y: -0.00061395013, z: 0.008793054, w: 0.9996443}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: BND_R_SkirtFront_4
+      parentName: BND_R_SkirtFront_3
+      position: {x: -3.175676, y: -1.4210855e-14, z: -7.1054274e-15}
+      rotation: {x: -0.030223219, y: -0.0020464547, z: -0.00030123073, w: 0.99954104}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: BND_R_SkirtFront_5
+      parentName: BND_R_SkirtFront_4
+      position: {x: -4.209669, y: 0, z: 3.5527137e-15}
+      rotation: {x: 0.00337789, y: -0.9998267, z: 0.017953679, w: -0.0035610937}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: BND_R_SkirtSide_1
+      parentName: BND_C_Spine2
+      position: {x: 9.968612, y: 2.8458743, z: -0.979046}
+      rotation: {x: 0.54448277, y: 0.8386397, z: 0.0076538697, w: -0.012782652}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999998}
+    - name: BND_R_SkirtSide_2
+      parentName: BND_R_SkirtSide_1
+      position: {x: -7.43279, y: 7.1054274e-15, z: 0}
+      rotation: {x: 0.00007068179, y: 0.003402229, z: -0.007024049, w: 0.99996954}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000005}
+    - name: BND_R_SkirtSide_3
+      parentName: BND_R_SkirtSide_2
+      position: {x: -4.98924, y: 2.842171e-14, z: 1.3322676e-14}
+      rotation: {x: 0.00020999389, y: -0.0034291272, z: -0.0022958892, w: 0.9999915}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000007}
+    - name: BND_R_SkirtSide_4
+      parentName: BND_R_SkirtSide_3
+      position: {x: -4.495995, y: -1.4210855e-14, z: -7.1054274e-15}
+      rotation: {x: -0.00020376962, y: 0.00025819775, z: 0.008950397, w: 0.9999599}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.99999994}
+    - name: BND_R_SkirtSide_5
+      parentName: BND_R_SkirtSide_4
+      position: {x: -5.019037, y: 2.1316282e-14, z: -7.1054274e-15}
+      rotation: {x: 0.009983123, y: -0.99994946, z: 0.0004029127, w: -0.001146154}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: BND_R_SkirtBack_1
+      parentName: BND_C_Spine2
+      position: {x: 7.5627704, y: 3.1478262, z: -7.8758564}
+      rotation: {x: 0.52912825, y: 0.7615789, z: -0.26651123, w: -0.26266456}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: BND_R_SkirtBack_2
+      parentName: BND_R_SkirtBack_1
+      position: {x: -8.06274, y: 8.881784e-15, z: 7.1054274e-15}
+      rotation: {x: 0.033491563, y: 0.00033625957, z: -0.011761157, w: 0.99936974}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: BND_R_SkirtBack_3
+      parentName: BND_R_SkirtBack_2
+      position: {x: -5.718232, y: 0, z: 0}
+      rotation: {x: 0.026081856, y: -0.004648754, z: 0.014373634, w: 0.9995457}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000004}
+    - name: BND_R_SkirtBack_4
+      parentName: BND_R_SkirtBack_3
+      position: {x: -6.477318, y: 7.1054274e-15, z: 5.684342e-14}
+      rotation: {x: 0.03154067, y: 0.0032991238, z: -0.0011274316, w: 0.99949646}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.9999998}
+    - name: BND_R_SkirtBack_5
+      parentName: BND_R_SkirtBack_4
+      position: {x: -6.323584, y: -1.7763568e-15, z: 0}
+      rotation: {x: 0.004166248, y: -0.9998194, z: -0.018192701, w: 0.0035734908}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000005}
+    - name: BND_C_SkirtFront_1
+      parentName: BND_C_Spine2
+      position: {x: -0.5469329, y: 2.7072182, z: 9.72495}
+      rotation: {x: 0.47516307, y: 0.52366287, z: 0.47531238, w: 0.5235222}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000002}
+    - name: BND_C_SkirtFront_2
+      parentName: BND_C_SkirtFront_1
+      position: {x: -6.819139, y: -7.1054274e-15, z: 7.1054274e-15}
+      rotation: {x: 0.00002866983, y: 0.00032830235, z: -0.0047166343, w: 0.9999888}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000002}
+    - name: BND_C_SkirtFront_3
+      parentName: BND_C_SkirtFront_2
+      position: {x: -5.496778, y: 0, z: -2.1316282e-14}
+      rotation: {x: 0.00012852931, y: 0.0002389448, z: 0.011898261, w: 0.99992925}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: BND_C_SkirtFront_4
+      parentName: BND_C_SkirtFront_3
+      position: {x: -5.8048882, y: -7.1054274e-15, z: -3.5527137e-15}
+      rotation: {x: 0.00021563991, y: -0.00019969583, z: -0.0032409655, w: 0.9999947}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999998}
+    - name: BND_C_SkirtFront_5
+      parentName: BND_C_SkirtFront_4
+      position: {x: -4.036479, y: 7.1054274e-15, z: -3.5527137e-15}
+      rotation: {x: -0.00071159523, y: -0.99999946, z: -0.000042725045, w: 0.00071312574}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000008}
+    - name: BND_C_SkirtBack_1
+      parentName: BND_C_Spine2
+      position: {x: 1.3084887, y: 3.5660837, z: -11.146423}
+      rotation: {x: -0.45851156, y: -0.53826094, z: 0.4584193, w: 0.5384181}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: BND_C_SkirtBack_2
+      parentName: BND_C_SkirtBack_1
+      position: {x: -8.055226, y: 7.1054274e-15, z: 3.5527137e-15}
+      rotation: {x: 0.00014306605, y: 0.00018674135, z: -0.008191168, w: 0.9999665}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: BND_C_SkirtBack_3
+      parentName: BND_C_SkirtBack_2
+      position: {x: -5.5915637, y: 3.4416914e-15, z: -8.881784e-15}
+      rotation: {x: 0.000056802506, y: 0.0000761271, z: 0.020292543, w: 0.9997941}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: BND_C_SkirtBack_4
+      parentName: BND_C_SkirtBack_3
+      position: {x: -6.5650845, y: -1.0658141e-14, z: -7.1054274e-15}
+      rotation: {x: 0.00009521161, y: 0.00022341852, z: -0.005594154, w: 0.9999843}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: BND_C_SkirtBack_5
+      parentName: BND_C_SkirtBack_4
+      position: {x: -5.0589986, y: 1.0658141e-14, z: 7.1054274e-15}
+      rotation: {x: 0.0018008408, y: 0.9999984, z: 0.00011394572, w: -0.0002700238}
+      scale: {x: 1, y: 1, z: 1.0000004}
+    - name: BND_R_HandGrip1
+      parentName: BND_C_World1
+      position: {x: -26.906229, y: 90.86014, z: 23.843641}
+      rotation: {x: -0.020741737, y: 0.08940992, z: 0.27917793, w: 0.95584273}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: BND_L_HandGrip1
+      parentName: BND_C_World1
+      position: {x: -19.396122, y: 96.24703, z: 124.351906}
+      rotation: {x: 0.95584273, y: -0.2791789, z: 0.089408904, w: 0.020736855}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: BND_C_Weapon1
+      parentName: BND_C_World1
+      position: {x: -19.326317, y: 95.94112, z: 124.3309}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: geometry
+      parentName: renngeki_5_kuo_v6(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair_geo
+      parentName: geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_geo
+      parentName: geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: locator1
+      parentName: sword_geo
+      position: {x: 3.3878517, y: 113.01346, z: 35.761227}
+      rotation: {x: -0.33131093, y: -0.31283137, z: -0.64119697, w: 0.61744314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_geo
+      parentName: geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_geo
+      parentName: geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_geo
+      parentName: geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: poncho_geo
+      parentName: geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_geo
+      parentName: geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: scythe_geo
+      parentName: geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
