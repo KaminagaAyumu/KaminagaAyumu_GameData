@@ -10,6 +10,6 @@ GPU:NVIDIA GeForce RTX 4060
 
 ### 【動画URL】
 最新ver  
-https://youtu.be/7CQtxcG7fe4?si=P2oF8kyDdEjztJNJ  
+https://www.youtube.com/embed/7CQtxcG7fe4?si=bX_NO21D8xhcxCF0  
 更新前  
-https://youtu.be/Xub-eqRCi6A?si=Zy0YHCBSQjh0B9wk
+https://www.youtube.com/embed/Xub-eqRCi6A?si=EnOiGJZ0M2v_xSB1

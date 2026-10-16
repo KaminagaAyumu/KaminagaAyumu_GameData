@@ -9,4 +9,4 @@ OS:Windows
 GPU:NVIDIA GeForce RTX 4060
 
 ### 【動画URL】
-https://youtu.be/N-rrD2n-XXA
+https://www.youtube.com/embed/N-rrD2n-XXA?si=dZ5kMRxuCMnIVqcr
