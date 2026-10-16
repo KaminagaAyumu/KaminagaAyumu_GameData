@@ -1,0 +1,62 @@
+# =====================================================
+# 構成: <作品名>/Source  … プロジェクト一式
+#       <作品名>/Release … 配布用の実行ファイル(追跡する)
+# =====================================================
+
+# -----------------------------------------------------
+# Unity
+# Source直下のフォルダだけに限定し、Assets内の同名フォルダは除外しない
+# -----------------------------------------------------
+/*/Source/[Ll]ibrary/
+/*/Source/[Tt]emp/
+/*/Source/[Oo]bj/
+/*/Source/[Bb]uild/
+/*/Source/[Bb]uilds/
+/*/Source/[Ll]ogs/
+/*/Source/[Uu]ser[Ss]ettings/
+/*/Source/[Mm]emory[Cc]aptures/
+/*/Source/[Rr]ecordings/
+/*/Source/.utmp/
+
+# エディタが自動生成するファイル
+/*/Source/*.csproj
+/*/Source/*.unityproj
+/*/Source/*.pidb
+/*/Source/*.booproj
+/*/Source/*.svd
+/*/Source/*.userprefs
+/*/Source/sysinfo.txt
+/*/Source/.consulo/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ビルド時に出力される配布不要フォルダ
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# -----------------------------------------------------
+# C++ / DXライブラリ (Visual Studio)
+# ビルド中間ファイルはこれらのフォルダ内に出力される
+# -----------------------------------------------------
+.vs/
+/*/Source/[Dd]ebug/
+/*/Source/[Rr]elease/
+/*/Source/x64/
+/*/Source/x86/
+/*/Source/[Ww][Ii][Nn]32/
+/*/Source/ipch/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+
+# -----------------------------------------------------
+# OS
+# -----------------------------------------------------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
