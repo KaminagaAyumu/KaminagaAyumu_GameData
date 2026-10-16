@@ -46,6 +46,17 @@
 /*/Source/x86/
 /*/Source/[Ww][Ii][Nn]32/
 /*/Source/ipch/
+# 中間ディレクトリが <プロジェクト名>\x64\... になっている場合
+/*/Source/*/x64/
+/*/Source/*/[Dd]ebug/
+/*/Source/*/[Rr]elease/
+*.ilk
+*.pdb
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
 *.user
 *.suo
 *.VC.db

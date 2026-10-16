@@ -1,0 +1,6 @@
+{
+    "resources": [
+        { "path": "Data/File/Image/text_start.png", "type": "Image", "eternal": false},
+        { "path": "Data/File/Image/title.png", "type": "Image", "eternal": false}
+    ]
+}

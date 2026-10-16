@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{82efc897-c6fb-420b-9c9a-e597042bad9e}</ProjectGuid>
+    <RootNamespace>JumpHero</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../DxLib/file</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../DxLib/file</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../DxLib/file</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../DxLib/file</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\AttackItem.cpp" />
+    <ClCompile Include="Game\Balloon.cpp" />
+    <ClCompile Include="Game\ChangeToCoin.cpp" />
+    <ClCompile Include="Game\Coin.cpp" />
+    <ClCompile Include="Game\Effect\Charge.cpp" />
+    <ClCompile Include="Game\Effect\EffectBase.cpp" />
+    <ClCompile Include="Game\Effect\EffectManager.cpp" />
+    <ClCompile Include="Game\Effect\EffekseerEffect.cpp" />
+    <ClCompile Include="Game\Effect\EffekseerResourceManager.cpp" />
+    <ClCompile Include="Game\EnemyManager.cpp" />
+    <ClCompile Include="Game\ChestManager.cpp" />
+    <ClCompile Include="Game\Event\EventManager.cpp" />
+    <ClCompile Include="Game\ItemManager.cpp" />
+    <ClCompile Include="Game\LifeUp.cpp" />
+    <ClCompile Include="Game\PositionRegistry.cpp" />
+    <ClCompile Include="Game\ScoreManager.cpp" />
+    <ClCompile Include="Game\UpgradeMedal.cpp" />
+    <ClCompile Include="Scene\GameoverScene.cpp" />
+    <ClCompile Include="Scene\MiniGameScene.cpp" />
+    <ClCompile Include="Scene\OptionScene.cpp" />
+    <ClCompile Include="Scene\PauseScene.cpp" />
+    <ClCompile Include="Scene\SelectScene.cpp" />
+    <ClCompile Include="Game\TextManager.cpp" />
+    <ClCompile Include="Game\StayEnemy.cpp" />
+    <ClCompile Include="Scene\SoundControlScene.cpp" />
+    <ClCompile Include="Utility\UI\UIFormatText.cpp" />
+    <ClCompile Include="Utility\AnimationLoader.cpp" />
+    <ClCompile Include="Utility\Sound\SoundManager.cpp" />
+    <ClCompile Include="Utility\UI\UIGauge.cpp" />
+    <ClCompile Include="Utility\UI\UIImage.cpp" />
+    <ClCompile Include="Utility\UI\UISelectList.cpp" />
+    <ClCompile Include="Utility\UI\UIText.cpp" />
+    <ClCompile Include="Utility\UI\UITextWindow.cpp" />
+    <ClCompile Include="Utility\StringFunction.cpp" />
+    <ClCompile Include="Utility\Map.cpp" />
+    <ClCompile Include="Scene\ClearScene.cpp" />
+    <ClCompile Include="Game\EnemyBase.cpp" />
+    <ClCompile Include="Game\Actor.cpp" />
+    <ClCompile Include="Utility\Animation.cpp" />
+    <ClCompile Include="Utility\Application.cpp" />
+    <ClCompile Include="Utility\Bg.cpp" />
+    <ClCompile Include="Utility\Camera.cpp" />
+    <ClCompile Include="Game\Chest.cpp" />
+    <ClCompile Include="Game\CollisionManager.cpp" />
+    <ClCompile Include="Game\GameManager.cpp" />
+    <ClCompile Include="Scene\GameScene.cpp" />
+    <ClCompile Include="Utility\Geometry.cpp" />
+    <ClCompile Include="Utility\Input.cpp" />
+    <ClCompile Include="Game\ItemBase.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene\MissScene.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="Scene\SceneBase.cpp" />
+    <ClCompile Include="Scene\SceneController.cpp" />
+    <ClCompile Include="Scene\TitleScene.cpp" />
+    <ClCompile Include="Game\TransformEnemy.cpp" />
+    <ClCompile Include="Utility\UI\UIBase.cpp" />
+    <ClCompile Include="Utility\UI\UIManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\AttackItem.h" />
+    <ClInclude Include="Game\Balloon.h" />
+    <ClInclude Include="Game\ChangeToCoin.h" />
+    <ClInclude Include="Game\Coin.h" />
+    <ClInclude Include="Game\Effect\Charge.h" />
+    <ClInclude Include="Game\Effect\EffectBase.h" />
+    <ClInclude Include="Game\Effect\EffectManager.h" />
+    <ClInclude Include="Game\Effect\EffekseerEffect.h" />
+    <ClInclude Include="Game\Effect\EffekseerResourceManager.h" />
+    <ClInclude Include="Game\EnemyManager.h" />
+    <ClInclude Include="Game\ChestManager.h" />
+    <ClInclude Include="Game\Event\EventControls.h" />
+    <ClInclude Include="Game\Event\EventManager.h" />
+    <ClInclude Include="Game\Event\EventSensors.h" />
+    <ClInclude Include="Game\Event\EventStructs.h" />
+    <ClInclude Include="Game\LifeUp.h" />
+    <ClInclude Include="Game\PositionRegistry.h" />
+    <ClInclude Include="Game\ScoreManager.h" />
+    <ClInclude Include="Game\UpgradeMedal.h" />
+    <ClInclude Include="Scene\GameoverScene.h" />
+    <ClInclude Include="Scene\MiniGameScene.h" />
+    <ClInclude Include="Scene\OptionScene.h" />
+    <ClInclude Include="Scene\PauseScene.h" />
+    <ClInclude Include="Scene\SelectScene.h" />
+    <ClInclude Include="Game\TextManager.h" />
+    <ClInclude Include="Game\StayEnemy.h" />
+    <ClInclude Include="Scene\SoundControlScene.h" />
+    <ClInclude Include="Utility\UI\UIFormatText.h" />
+    <ClInclude Include="Utility\AnimationLoader.h" />
+    <ClInclude Include="Utility\Sound\SoundManager.h" />
+    <ClInclude Include="Utility\UI\UIGauge.h" />
+    <ClInclude Include="Utility\UI\UIImage.h" />
+    <ClInclude Include="Utility\UI\UISelectList.h" />
+    <ClInclude Include="Utility\UI\UIText.h" />
+    <ClInclude Include="Utility\UI\UITextWindow.h" />
+    <ClInclude Include="Utility\StringFunction.h" />
+    <ClInclude Include="Utility\GameType.h" />
+    <ClInclude Include="Game\ItemManager.h" />
+    <ClInclude Include="Utility\Map.h" />
+    <ClInclude Include="Scene\ClearScene.h" />
+    <ClInclude Include="Game\EnemyBase.h" />
+    <ClInclude Include="Game\Actor.h" />
+    <ClInclude Include="Utility\Animation.h" />
+    <ClInclude Include="Utility\Application.h" />
+    <ClInclude Include="Utility\Bg.h" />
+    <ClInclude Include="Utility\Camera.h" />
+    <ClInclude Include="Game\Chest.h" />
+    <ClInclude Include="Game\CollisionManager.h" />
+    <ClInclude Include="Utility\Game.h" />
+    <ClInclude Include="Game\GameManager.h" />
+    <ClInclude Include="Scene\GameScene.h" />
+    <ClInclude Include="Utility\Geometry.h" />
+    <ClInclude Include="Utility\Input.h" />
+    <ClInclude Include="Game\ItemBase.h" />
+    <ClInclude Include="Scene\MissScene.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="Scene\SceneBase.h" />
+    <ClInclude Include="Scene\SceneController.h" />
+    <ClInclude Include="Scene\TitleScene.h" />
+    <ClInclude Include="Game\TransformEnemy.h" />
+    <ClInclude Include="Utility\UI\UIBase.h" />
+    <ClInclude Include="Utility\UI\UIManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

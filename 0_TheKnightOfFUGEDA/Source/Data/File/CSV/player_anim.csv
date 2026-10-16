@@ -1,0 +1,4 @@
+AnimName,AnimSpeed,BlendFrame,IsLoop
+Player|Idle,0.5,20,TRUE
+Player|Walk,0.5,20,TRUE
+Player|Attack_1,1,20,FALSE

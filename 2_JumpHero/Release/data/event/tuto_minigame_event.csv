@@ -1,0 +1,10 @@
+ID,TriggerType,TriggerParam,ActionType,ActionParam
+1,GameStart,0,FreezeGame,0
+2,GameStart,0,ShowText,tuto_minigame_1
+3,GameStart,0,WaitInput,0
+4,GameStart,0,UnFreezeGame,0
+5,GetBalloon,all,ActiveGoal,0
+6,NoTrigger,0,FreezeGame,0
+7,NoTrigger,0,ShowText,tuto_minigame_2
+8,NoTrigger,0,WaitInput,0
+9,NoTrigger,0,UnFreezeGame,0

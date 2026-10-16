@@ -1,0 +1,8 @@
+TriggerType,ActionType,param(string),boolParam
+GameStart,FreezePlayer,,0
+GameStart,FreezeEnemy,,0
+GameStart,ShowText,stage_start,0
+TextEnd,StartCountDown,,0
+CountDownEnd,FreezePlayer,,1
+GameStart,FreezeEnemy,,1
+AllEnemyDead,GoToClearScene,,0

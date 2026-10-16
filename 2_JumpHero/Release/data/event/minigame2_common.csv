@@ -1,0 +1,2 @@
+ID,TriggerType,TriggerParam,ActionType,ActionParam,Once
+1,GetBalloon,10,DropItem,changecoin,FALSE

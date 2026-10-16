@@ -1,0 +1,4 @@
+ID,TriggerType,TriggerParam,ActionType,ActionParam,Once
+1,EventEnd,4,ShowHint,info_minigame,TRUE
+2,EventEnd,9,ShowHint,info_goal,TRUE
+3,GetBalloon,5,DropItem,changecoin,FALSE

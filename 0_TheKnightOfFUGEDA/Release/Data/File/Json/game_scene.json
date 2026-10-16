@@ -1,0 +1,12 @@
+{
+    "resources": [
+        { "path": "Data/File/Image/ques.png", "type": "Image", "eternal": false},
+        { "path": "Data/File/Model/player.mv1", "type": "Model", "eternal": false},
+        { "path": "Data/File/Model/sword.mv1", "type": "Model", "eternal": false},
+        { "path": "Data/File/Model/shield.mv1", "type": "Model", "eternal": false},
+        { "path": "Data/File/Model/enemy_bullet.mv1", "type": "Model", "eternal": false},
+        { "path": "Data/File/Model/bullet.mv1", "type": "Model", "eternal": false},
+        { "path": "Data/File/Model/skybox.mv1", "type": "Model", "eternal": false},
+        { "path": "Data/File/Model/stage_test.mv1", "type": "Model", "eternal": false}
+    ]
+}
